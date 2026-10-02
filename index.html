@@ -3,7 +3,7 @@
 <html class="dark" lang="en"><head><title>THIRD | Specialty Cocktail Lounge in Houston's Third Ward</title><meta name="description" content="THIRD Specialty Cocktail Lounge, 2803 Old Spanish Trail, Houston. Craft cocktails, two happy hours, Ladies Night Tuesdays, Secret Menu Wednesdays, and live music. Culture in Every Pour."/><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,500&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-lowest": "#0d0e11", "on-background": "#e3e2e6", "on-tertiary-container": "#3c483d", "inverse-on-surface": "#2f3034", "surface-dim": "#121316", "on-tertiary": "#273329", "on-tertiary-fixed": "#131e15", "on-primary": "#3c2f00", "surface-bright": "#38393c", "surface-variant": "#343538", "on-secondary-fixed-variant": "#5b4300", "on-secondary": "#3f2e00", "on-secondary-fixed": "#261a00", "tertiary-fixed-dim": "#bccabc", "secondary-fixed-dim": "#ebc165", "surface": "#121316", "on-primary-fixed": "#241a00", "outline-variant": "#4d4635", "tertiary-fixed": "#d8e6d8", "surface-container": "#1f1f23", "tertiary-container": "#a9b6a9", "on-primary-fixed-variant": "#574500", "primary-fixed": "#ffe088", "tertiary": "#c4d2c4", "background": "#121316", "on-primary-container": "#554300", "on-error-container": "#ffdad6", "surface-container-low": "#1b1b1f", "primary": "#f2ca50", "primary-fixed-dim": "#e9c349", "secondary": "#ebc165", "on-tertiary-fixed-variant": "#3d4a3f", "primary-container": "#d4af37", "on-surface-variant": "#d0c5af", "on-secondary-container": "#fed375", "error-container": "#93000a", "on-error": "#690005", "secondary-container": "#795900", "inverse-primary": "#735c00", "surface-container-highest": "#343538", "error": "#ffb4ab", "inverse-surface": "#e3e2e6", "secondary-fixed": "#ffdf9e", "on-surface": "#e3e2e6", "outline": "#99907c", "surface-container-high": "#292a2d", "surface-tint": "#e9c349" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "margin": "3rem", "gutter": "1.5rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "space-md": "1rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "space-2xl": "4rem", "gutter-mobile": "1rem", "margin-mobile": "1.25rem" }, "fontFamily": { "headline-md": [ "Playfair Display" ], "headline-lg": [ "Playfair Display" ], "display-lg": [ "Playfair Display" ], "headline-sm": [ "Playfair Display" ], "body-lg": [ "Inter" ], "label-md": [ "Inter" ], "headline-lg-mobile": [ "Playfair Display" ], "display-lg-mobile": [ "Playfair Display" ], "label-lg": [ "Inter" ], "body-md": [ "Inter" ], "body-sm": [ "Inter" ], "label-sm": [ "Inter" ] }, "fontSize": { "headline-md": [ "1.5rem", { "lineHeight": "2rem", "letterSpacing": "0em", "fontWeight": "500" } ], "headline-lg": [ "2.25rem", { "lineHeight": "2.75rem", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "display-lg": [ "3.5rem", { "lineHeight": "4rem", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "headline-sm": [ "1.25rem", { "lineHeight": "1.75rem", "letterSpacing": "0.01em", "fontWeight": "600" } ], "body-lg": [ "1.125rem", { "lineHeight": "1.75rem", "letterSpacing": "0em", "fontWeight": "400" } ], "label-md": [ "0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.15em", "fontWeight": "600" } ], "headline-lg-mobile": [ "1.75rem", { "lineHeight": "2.25rem", "letterSpacing": "0em", "fontWeight": "500" } ], "display-lg-mobile": [ "2.5rem", { "lineHeight": "3rem", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "label-lg": [ "0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.12em", "fontWeight": "600" } ], "body-md": [ "1rem", { "lineHeight": "1.5rem", "letterSpacing": "0em", "fontWeight": "400" } ], "body-sm": [ "0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.01em", "fontWeight": "400" } ], "label-sm": [ "0.6875rem", { "lineHeight": "0.875rem", "letterSpacing": "0.18em", "fontWeight": "500" } ] } } } };</script><style type="text/tailwindcss">
 html{scroll-behavior:smooth;scroll-padding-top:5rem}
 body{background:#121316}
-.nav-link{@apply font-label-md text-label-md uppercase text-on-surface-variant hover:text-primary transition-colors py-2;}
+.nav-link{@apply font-label-md text-label-md uppercase text-on-surface-variant hover:text-primary transition-colors py-2 whitespace-nowrap;}
 .drawer-link{@apply flex items-center min-h-[48px] border-b border-outline-variant/30 font-label-lg text-label-lg uppercase text-on-surface hover:text-primary;}
 .eyebrow{@apply flex items-center gap-space-sm font-label-sm text-label-sm uppercase text-primary mb-space-sm;}
 .eyebrow::before{content:"";width:1.5rem;height:1px;background:currentColor}
@@ -23,8 +23,9 @@ body{background:#121316}
 .week-copy{@apply font-body-sm text-body-sm text-on-surface-variant mt-space-sm;}
 .placeholder-note{@apply font-label-sm text-[11px] tracking-[0.08em] uppercase text-outline;}
 .placeholder-note::before{content:"[ ";}.placeholder-note::after{content:" ]";}
-.slash-d{position:relative;display:inline-block}
-.slash-d::after{content:"";position:absolute;left:-12%;right:-12%;top:50%;height:2px;background:currentColor;transform:rotate(-58deg)}
+.slash-d{position:relative;display:inline-block;letter-spacing:0;line-height:1}
+.slash-d::before{content:"";position:absolute;width:.25em;height:.25em;border-radius:50%;left:.41em;top:.53em;transform:translate(-50%,-50%);background:currentColor}
+.slash-d::after{content:"";position:absolute;height:.05em;min-height:1.5px;width:.84em;left:.22em;top:.74em;transform-origin:0 50%;transform:rotate(-47deg);background:currentColor}
 .is-today th,.is-today td{@apply text-primary;}
 .today-pill{@apply ml-space-sm align-middle font-label-sm text-[11px] uppercase bg-primary text-on-primary rounded px-1.5 py-0.5;}
 a:focus-visible,button:focus-visible{outline:2px solid #f2ca50;outline-offset:3px}
@@ -37,7 +38,7 @@ a:focus-visible,button:focus-visible{outline:2px solid #f2ca50;outline-offset:3p
 <span class="font-display-lg text-[28px] tracking-[0.28em] text-primary">THIR<span class="slash-d">D</span></span>
 <span class="font-label-sm text-[10px] sm:text-[11px] tracking-[0.24em] uppercase text-primary/90 mt-1">Specialty Cocktail Lounge</span>
 </a>
-<nav class="hidden lg:flex items-center gap-space-lg" aria-label="Primary">
+<nav class="hidden xl:flex items-center gap-space-lg" aria-label="Primary">
 <a class="nav-link" href="#menu">Menu</a>
 <a class="nav-link" href="#weekly">This Week</a>
 <a class="nav-link" href="#the-room">The Room</a>
@@ -45,18 +46,20 @@ a:focus-visible,button:focus-visible{outline:2px solid #f2ca50;outline-offset:3p
 <a class="nav-link" href="#visit">Visit</a>
 </nav>
 <div class="flex items-center gap-space-sm shrink-0">
+<a class="hidden sm:inline-flex items-center justify-center gap-space-xs min-h-[44px] px-space-md border border-primary/50 text-on-surface font-label-md text-label-md uppercase rounded hover:bg-primary/10 hover:border-primary transition-colors" href="order.html"><span class="material-symbols-outlined text-lg text-primary" aria-hidden="true">qr_code_2</span>Order &amp; Pay</a>
 <a class="hidden sm:inline-flex items-center justify-center min-h-[44px] px-space-lg bg-primary text-on-primary font-label-md text-label-md uppercase rounded hover:bg-primary-fixed transition-colors" href="#reserve">Reserve</a>
-<button id="nav-toggle" aria-controls="mobile-drawer" aria-expanded="false" aria-label="Open menu" class="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded bg-surface-container-high text-on-surface hover:text-primary" type="button"><span class="material-symbols-outlined text-2xl" aria-hidden="true">menu</span></button>
+<button id="nav-toggle" aria-controls="mobile-drawer" aria-expanded="false" aria-label="Open menu" class="xl:hidden inline-flex items-center justify-center w-11 h-11 rounded bg-surface-container-high text-on-surface hover:text-primary" type="button"><span class="material-symbols-outlined text-2xl" aria-hidden="true">menu</span></button>
 </div>
 </div>
-<nav class="hidden lg:hidden bg-surface-container-low border-t border-outline-variant/30" id="mobile-drawer" aria-label="Mobile">
+<nav class="hidden xl:hidden bg-surface-container-low border-t border-outline-variant/30" id="mobile-drawer" aria-label="Mobile">
 <div class="max-w-[1280px] mx-auto px-margin-mobile py-space-md flex flex-col">
 <a class="drawer-link" href="#menu">Menu</a>
 <a class="drawer-link" href="#weekly">This Week</a>
 <a class="drawer-link" href="#the-room">The Room</a>
 <a class="drawer-link" href="#celebrate">Celebrate</a>
 <a class="drawer-link" href="#visit">Visit</a>
-<a class="mt-space-md flex items-center justify-center min-h-[48px] bg-primary text-on-primary font-label-md text-label-md uppercase rounded" href="#reserve">Reserve a Table</a>
+<a class="mt-space-md flex items-center justify-center gap-space-xs min-h-[48px] border border-primary/50 text-on-surface font-label-md text-label-md uppercase rounded" href="order.html"><span class="material-symbols-outlined text-lg text-primary" aria-hidden="true">qr_code_2</span>Order &amp; Pay</a>
+<a class="mt-space-sm flex items-center justify-center min-h-[48px] bg-primary text-on-primary font-label-md text-label-md uppercase rounded" href="#reserve">Reserve a Table</a>
 </div>
 </nav>
 </header>
@@ -107,6 +110,7 @@ A neighborhood specialty cocktail lounge minutes from the Texas Medical Center, 
 <li class="chip">Signature Cocktails</li><li class="chip">Classics</li><li class="chip">Wine</li><li class="chip">Beer</li>
 </ul>
 <p class="placeholder-note mt-space-lg">Full menu and prices coming from the owner.</p>
+<a class="mt-space-lg flex items-center justify-between gap-space-md min-h-[56px] px-space-lg bg-surface-container border border-primary/30 rounded hover:border-primary transition-colors group" href="order.html"><span><span class="block font-label-sm text-label-sm uppercase text-primary">Already at THIRD?</span><span class="block font-headline-sm text-headline-sm text-on-surface">Order &amp; pay from your seat</span></span><span class="material-symbols-outlined text-primary text-3xl" aria-hidden="true">qr_code_2</span></a>
 </div>
 <div class="lg:col-span-8">
 <ul class="divide-y divide-outline-variant/30 border-y border-outline-variant/30">
@@ -121,6 +125,10 @@ A neighborhood specialty cocktail lounge minutes from the Texas Medical Center, 
 <li class="menu-row">
 <div><h3 class="menu-name">Lemon Drop</h3><p class="menu-desc">Bright, sharp, and easy to share.</p></div>
 <span class="menu-price">2 for $20 <small>Tue</small></span>
+</li>
+<li class="menu-row">
+<div><h3 class="menu-name">Gin &amp; Lemonade</h3><p class="menu-desc">Gin and lemonade over ice. Easy sipping for happy hour.</p></div>
+<span class="menu-tag">Classic</span>
 </li>
 <li class="menu-row">
 <div><h3 class="menu-name">Reposado Pour</h3><p class="menu-desc">Neat or on the rocks.</p></div>
